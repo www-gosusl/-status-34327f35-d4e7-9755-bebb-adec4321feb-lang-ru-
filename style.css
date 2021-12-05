@@ -1,0 +1,57 @@
+.wrapper {
+    max-width: 360px;
+    margin: auto;
+
+}
+.cart img {
+    margin: 0 auto;
+    display: flex;
+    width: 100%;
+    height: auto;
+}
+.cart {
+    margin-bottom: 20px;
+}
+.link {
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    font-size: 16px;
+    border: 2px solid;
+    border-color: #0d4cd3;
+    border-radius: 8px;
+    color: #0d4cd3;
+    padding: 14px;
+    font-family: 'Roboto', sans-serif;
+
+}
+#preloader {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#preloader.hide-preloader {
+    animation: hide-preloader 3s;
+}
+#preloader.preloader-hidden {
+    display: none;
+}
+
+@keyframes hide-preloader {
+    0% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+    }
+}
+
+@media screen { 
+    
+}
